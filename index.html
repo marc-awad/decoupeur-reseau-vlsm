@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Découpage réseau</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Découpage réseau</h1>
+    <div>
+      <button onclick="$('#startingDiv').slideToggle()" id="tempButton">
+        Changer les paramètres
+      </button>
+      <div id="startingDiv">
+        <label id="temp1">Adresse du réseau</label>
+        <input type="text" id="adresseReseau" />
+        <label id="temp2">Masque de sous réseau</label>
+        <input type="text" id="masqueSR" />
+        <label for="nb_reseau_total"
+          >Combien de sous-réseau voulez-vous au total ?</label
+        >
+        <input type="number" id="nb_reseau_total" />
+        <button id="startingButton">Valider</button>
+      </div>
+    </div>
+    <div id="divAllInput">
+
+    </div>
+        <div id="result">
+
+        </div>
+      <dialog id="myDialog">
+          <p>Veulliez entrer un nombre d'hôte valide</p>
+          <button id="closeDialog">Fermer</button>
+      </dialog>
+  </body>
+</html>
+
