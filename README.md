@@ -41,7 +41,7 @@ This tool allows you to split IP networks into optimized subnets based on host r
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/vlsm-subnet-calculator.git
+   git clone https://github.com/marc-awad/decoupeur-reseau-vlsm.git
     ```
 2. Open `index.html` in your browser.
 
