@@ -32,13 +32,10 @@ This tool allows you to split IP networks into optimized subnets based on host r
 - jQuery  
 - SweetAlert2
 
-## 📷 Screenshot
+## 📷 Screenshot  
 
-![VLSM Calculator Screenshot](![image](https://github.com/user-attachments/assets/349c93e8-8fa0-4256-ad67-7736ae2e8da2)
-)  
-*Example view of the subnet breakdown after calculation.*
+![image](https://github.com/user-attachments/assets/27214a50-0c76-4889-b5ab-00c079b7dcd6)
 
-> Replace `screenshot.png` with your real screenshot file, placed in the project root or a `./assets/` folder.
 
 ## 📁 How to Use
 
